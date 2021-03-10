@@ -1,18 +1,50 @@
-body{
-    background-color: yellowgreen;
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
 }
-.Hello{
-    color: violet;
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.promo{
+    height: 800px;
+    background: url('../img/main.jpg') center center/ cover /* растяжение картинки на весь блок */ no-repeat;
+    padding: 39px 0 62px 0;
+}
+.logo .logo_img{
+    display: block;
+    margin: 0 auto;
+}
+.logo .sova_text{
+    font-family: Roboto; /* семейство шрифтов */
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px; /* межстрочный интервал */
+    color: #FFFFFF;
+    text-transform: uppercase; /* перевод текста в верхний регистр */
     text-align: center;
-    font-weight: 100;
+    margin-top: 14px;
 }
-.box{
-    width: 1920px;
-    height: 1080px;
-    background-color:tomato;
-    padding: 20px;
-    border-width: 5px;
-    border-color: black;
-    border-style: solid;
-    margin: 10px;
+h1{
+    margin-top: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main2{
+    height: 800px;
+    background: url('../img/main2.jpg') center center/cover no-repeat;
+}
+.cnt2{
+    width: 1140px;
+    margin: 0 auto;
+
 }
